@@ -1,6 +1,0 @@
-#Calculate end of week cash
-
-StartingFund = float(input("enter your startingfund: "))
-wages = float(input("enter your wages:"))
-EndOfWeek = StartingFund + wages
-print (EndOfWeek)
