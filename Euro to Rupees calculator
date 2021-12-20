@@ -1,0 +1,6 @@
+#converting euros to rupees
+
+euro = float(input("enter euro value : "))
+rupees = float(86.25)
+result = euro * rupees
+print ( euro , "euros is equal to" , result , "rupees")
