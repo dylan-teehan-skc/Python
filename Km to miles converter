@@ -1,6 +1,0 @@
-#converting kilometres to miles
-
-kilo = float(input("enter the kilometre value : "))
-miles = float(0.62137119)
-result = kilo * miles
-print (kilo , "kilometres is equal to" , result , "miles")
