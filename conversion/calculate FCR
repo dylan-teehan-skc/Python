@@ -1,0 +1,5 @@
+#calculate FCR
+food = float(input("enter food consumed by the flock in Kg: "))
+weight = float(input("enter total weight gained in Kg: "))
+result = int(food / weight)
+print ("The FCR results to " , result)
