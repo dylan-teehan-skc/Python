@@ -1,4 +1,4 @@
 # a program to convert from centigrade to celcius
-#centigrade = float(input( "enter centigrade value; "))
-#fahrenheit = 9/5 * centigrade + 32
-#print(centigrade, "degrees C equals" , fahrenheit , "degrees f")
+centigrade = float(input( "enter centigrade value; "))
+fahrenheit = 9/5 * centigrade + 32
+print(centigrade, "degrees C equals" , fahrenheit , "degrees f")
