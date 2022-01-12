@@ -1,6 +1,0 @@
-name = input("what is name: ")
-age = int(input("what is your age: "))
-born = int(2021 - age)
-print ("your name is ",name )
-print ("your age is" , age )
-print ("you were born in the year",born)
