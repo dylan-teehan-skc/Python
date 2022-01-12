@@ -1,0 +1,23 @@
+#to guess random word and break loop when guessed
+import random
+mylist = ["dog","cat","sheep","cow","pig","bull"]
+word=(random.choice(mylist))
+print (word)
+
+counter = 0
+
+while counter < 5:
+    
+    guess = (input("guess the random word: "))
+    if guess == word:
+        print ("correct")
+        print ("well done")
+        break #exit the loop immediately
+    
+    elif guess != word:
+        print ("incorrect")
+        print ("Go Again")
+        
+        counter = counter + 1
+   
+print ("Goodbye")
